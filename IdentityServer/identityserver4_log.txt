@@ -1,0 +1,376 @@
+2017-05-19 11:46:24.454 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 11:46:24.499 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 11:46:24.503 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 11:48:40.074 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 11:48:40.130 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 11:48:40.136 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 11:51:11.881 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 11:51:11.935 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 11:51:11.940 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 11:53:55.224 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 11:53:55.274 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 11:53:55.280 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 11:57:52.520 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 11:57:52.570 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 11:57:52.576 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 11:57:59.977 -07:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-05-19 11:57:59.984 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 11:57:59.986 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-05-19 11:57:59.988 -07:00 [Debug] Start discovery request
+2017-05-19 11:58:00.179 -07:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-05-19 11:58:00.179 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 11:58:00.180 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-05-19 11:58:00.182 -07:00 [Debug] Start key discovery request
+2017-05-19 11:58:00.352 -07:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-05-19 11:58:00.352 -07:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-05-19 11:58:00.355 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-05-19 11:58:00.362 -07:00 [Debug] Start authorize request
+2017-05-19 11:58:00.376 -07:00 [Debug] No user present in authorize request
+2017-05-19 11:58:00.379 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 11:58:00.405 -07:00 [Error] Invalid redirect_uri: https://localhost:44362/signin-oidc
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44316/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308170802236526.YWQzMDg2NzItZTJkNS00NDY1LTllNmYtNjkyYzljZjU5OGRhMDQyOGEyMDItM2QwMS00MTU1LWExMjctYmVlZDgwNGZiZTBh\",
+    \"state\": \"CfDJ8Be425E5CdxJuBO1oaISwfeRsI-E7jnYFVzd2-j-KiJeVqqqkGbVfQVD4JH_RLYYf6fdEeBAte6x2JNtLMp7KyH6Ex4MP1mJSCWjJVVY1A9uXqV5W3btI3yCAS0iYvmenVAJ4NHL4_uIF6j8ab1TmoZi3tVq-UvNtKE8j-g_GMBhuqtrN-oSjHjBQYcvzAGXjYGk3ACwULxGA5hXsszPOyiAukembRt0u3n1jIijYDQ9rPKDbjSMfTno2Dc7L3BnLyWH-zSFlaJUm579cXG5xiD0_aPgm3zzUrqcmpSPlz2H\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 11:58:00.408 -07:00 [Error] Request validation failed
+2017-05-19 11:58:00.408 -07:00 [Information] "{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44316/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308170802236526.YWQzMDg2NzItZTJkNS00NDY1LTllNmYtNjkyYzljZjU5OGRhMDQyOGEyMDItM2QwMS00MTU1LWExMjctYmVlZDgwNGZiZTBh\",
+    \"state\": \"CfDJ8Be425E5CdxJuBO1oaISwfeRsI-E7jnYFVzd2-j-KiJeVqqqkGbVfQVD4JH_RLYYf6fdEeBAte6x2JNtLMp7KyH6Ex4MP1mJSCWjJVVY1A9uXqV5W3btI3yCAS0iYvmenVAJ4NHL4_uIF6j8ab1TmoZi3tVq-UvNtKE8j-g_GMBhuqtrN-oSjHjBQYcvzAGXjYGk3ACwULxGA5hXsszPOyiAukembRt0u3n1jIijYDQ9rPKDbjSMfTno2Dc7L3BnLyWH-zSFlaJUm579cXG5xiD0_aPgm3zzUrqcmpSPlz2H\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 11:58:00.500 -07:00 [Error] An exception occurred while processing the key element '"<key id=\"91dbb817-0939-49dc-b813-b5a1a212c1f7\" version=\"1\" />"'.
+System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+File name: 'Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type, ObjectHandleOnStack keepalive)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   at System.Type.GetType(String typeName, Boolean throwOnError)
+   at Microsoft.AspNetCore.DataProtection.SimpleActivator.CreateInstance(Type expectedBaseType, String implementationTypeName)
+   at Microsoft.AspNetCore.DataProtection.ActivatorExtensions.CreateInstance[T](IActivator activator, String implementationTypeName)
+   at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)
+2017-05-19 11:58:00.561 -07:00 [Warning] Key {91dbb817-0939-49dc-b813-b5a1a212c1f7} is ineligible to be the default key because its "CreateEncryptorInstance" method failed.
+System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+File name: 'Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type, ObjectHandleOnStack keepalive)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   at System.Type.GetType(String typeName, Boolean throwOnError)
+   at Microsoft.AspNetCore.DataProtection.SimpleActivator.CreateInstance(Type expectedBaseType, String implementationTypeName)
+   at Microsoft.AspNetCore.DataProtection.ActivatorExtensions.CreateInstance[T](IActivator activator, String implementationTypeName)
+   at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKey.<>c__DisplayClass1_0.<GetLazyEncryptorDelegate>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)
+2017-05-19 11:58:00.572 -07:00 [Warning] Key {91dbb817-0939-49dc-b813-b5a1a212c1f7} is ineligible to be the default key because its "CreateEncryptorInstance" method failed.
+System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+File name: 'Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type, ObjectHandleOnStack keepalive)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   at System.Type.GetType(String typeName, Boolean throwOnError)
+   at Microsoft.AspNetCore.DataProtection.SimpleActivator.CreateInstance(Type expectedBaseType, String implementationTypeName)
+   at Microsoft.AspNetCore.DataProtection.ActivatorExtensions.CreateInstance[T](IActivator activator, String implementationTypeName)
+   at Microsoft.AspNetCore.DataProtection.XmlEncryption.XmlEncryptionExtensions.DecryptElement(XElement element, IActivator activator)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.Microsoft.AspNetCore.DataProtection.KeyManagement.Internal.IInternalXmlKeyManager.DeserializeDescriptorFromKeyElement(XElement keyElement)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.DeferredKey.<>c__DisplayClass1_0.<GetLazyEncryptorDelegate>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)
+2017-05-19 12:01:02.732 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:01:02.781 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:01:02.786 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 12:01:10.566 -07:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-05-19 12:01:10.571 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:01:10.573 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-05-19 12:01:10.575 -07:00 [Debug] Start discovery request
+2017-05-19 12:01:10.748 -07:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-05-19 12:01:10.748 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:01:10.749 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-05-19 12:01:10.750 -07:00 [Debug] Start key discovery request
+2017-05-19 12:01:10.901 -07:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-05-19 12:01:10.902 -07:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-05-19 12:01:10.905 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-05-19 12:01:10.911 -07:00 [Debug] Start authorize request
+2017-05-19 12:01:10.924 -07:00 [Debug] No user present in authorize request
+2017-05-19 12:01:10.928 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:01:10.950 -07:00 [Error] Invalid redirect_uri: https://localhost:44362/signin-oidc
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44358/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308172707881617.MzIwZDZmYzgtZjA5NC00ZDdlLWJlZTktYzllYzJhMzRjMjdhY2MwYTU1MDEtOTc0NC00OWY4LWFlMGItNDVlYmQ1OTYyMzYz\",
+    \"state\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQVS_kTszw12hsbcbu8TSzuYdZl1Ho7BFYV4wa0QvTJZ7jO-2IffxNNzZGjCHZYbSEMPyywbaJnesxnyEAj7abNlMqICwrdefUJe7q-z0d2hg5_5rjFNlZihG_Om-Z7nFshbtde1JlGjcnx_FRi6E82KZN25ODOvRtiJHF5C9XAJIqQxsSk9VeAMBrc_SmRCfUATGT7EAZ0Lx2i9-27WMY3A7MtkyBMk6OZuXqZTokWsMyEMA0tLegXJJKtSHhwFmv9sXNF2827i_7_87YOMLEr\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 12:01:10.952 -07:00 [Error] Request validation failed
+2017-05-19 12:01:10.952 -07:00 [Information] "{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44358/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308172707881617.MzIwZDZmYzgtZjA5NC00ZDdlLWJlZTktYzllYzJhMzRjMjdhY2MwYTU1MDEtOTc0NC00OWY4LWFlMGItNDVlYmQ1OTYyMzYz\",
+    \"state\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQVS_kTszw12hsbcbu8TSzuYdZl1Ho7BFYV4wa0QvTJZ7jO-2IffxNNzZGjCHZYbSEMPyywbaJnesxnyEAj7abNlMqICwrdefUJe7q-z0d2hg5_5rjFNlZihG_Om-Z7nFshbtde1JlGjcnx_FRi6E82KZN25ODOvRtiJHF5C9XAJIqQxsSk9VeAMBrc_SmRCfUATGT7EAZ0Lx2i9-27WMY3A7MtkyBMk6OZuXqZTokWsMyEMA0tLegXJJKtSHhwFmv9sXNF2827i_7_87YOMLEr\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 12:02:27.540 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:02:27.582 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:02:27.586 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 12:02:36.275 -07:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-05-19 12:02:36.281 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:02:36.283 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-05-19 12:02:36.285 -07:00 [Debug] Start discovery request
+2017-05-19 12:02:36.476 -07:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-05-19 12:02:36.476 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:02:36.476 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-05-19 12:02:36.478 -07:00 [Debug] Start key discovery request
+2017-05-19 12:02:36.625 -07:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-05-19 12:02:36.625 -07:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-05-19 12:02:36.628 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-05-19 12:02:36.634 -07:00 [Debug] Start authorize request
+2017-05-19 12:02:36.648 -07:00 [Debug] No user present in authorize request
+2017-05-19 12:02:36.651 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:02:36.682 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:02:36.697 -07:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44362/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile\",
+  \"State\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQXRCzu96AT5nX3KDsWQ4bb3lc_p-KRekHZLofT178fD_kIgqhc5wy9bm09I8H0YSlaOnArWGm1wDjhlw7wQv9rlIc6TIEabT7VitkmyRolt9eoLmIk2VOUcwTl1ZhPgJyAst7bAX4dtyvujA7rlgiLruGNNBpNjbnnlfvgzR32ZnQ5IciDMFdvNmmdopShGoz5d3xJmXsrVShWrJWjEqftIX7B2P-hkDm8Kv5Kd_WV9GPLbdELlE8hgGkhYl4kDqKojYSJy4LX3xpcZLnNg2FG\",
+  \"Nonce\": \"636308173565157689.YjI4M2MyNDgtZTVhMi00MmQ0LTkzODUtOTIzNjExNDViZTA2NWM2Yjg5YTYtNjVlYy00MDUyLTk1YTYtNGI5OTZhMzYxOGFh\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308173565157689.YjI4M2MyNDgtZTVhMi00MmQ0LTkzODUtOTIzNjExNDViZTA2NWM2Yjg5YTYtNjVlYy00MDUyLTk1YTYtNGI5OTZhMzYxOGFh\",
+    \"state\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQXRCzu96AT5nX3KDsWQ4bb3lc_p-KRekHZLofT178fD_kIgqhc5wy9bm09I8H0YSlaOnArWGm1wDjhlw7wQv9rlIc6TIEabT7VitkmyRolt9eoLmIk2VOUcwTl1ZhPgJyAst7bAX4dtyvujA7rlgiLruGNNBpNjbnnlfvgzR32ZnQ5IciDMFdvNmmdopShGoz5d3xJmXsrVShWrJWjEqftIX7B2P-hkDm8Kv5Kd_WV9GPLbdELlE8hgGkhYl4kDqKojYSJy4LX3xpcZLnNg2FG\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 12:02:36.702 -07:00 [Information] Showing login: User is not authenticated
+2017-05-19 12:02:36.846 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:02:36.847 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:14:57.589 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:14:57.631 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:14:57.636 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 12:15:55.072 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:15:55.115 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:15:55.121 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 12:16:17.959 -07:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-05-19 12:16:17.964 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:16:17.966 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-05-19 12:16:17.968 -07:00 [Debug] Start discovery request
+2017-05-19 12:16:18.151 -07:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-05-19 12:16:18.151 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:16:18.152 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-05-19 12:16:18.154 -07:00 [Debug] Start key discovery request
+2017-05-19 12:16:18.311 -07:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-05-19 12:16:18.311 -07:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-05-19 12:16:18.314 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-05-19 12:16:18.320 -07:00 [Debug] Start authorize request
+2017-05-19 12:16:18.332 -07:00 [Debug] No user present in authorize request
+2017-05-19 12:16:18.335 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:16:18.367 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:16:18.381 -07:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44362/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile\",
+  \"State\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZTVcoq9bY25rjMNq2bptrnBYNwDBjyHf_iWYhSGWlNo0lHF1M-RbJHbh0TdoE7hAgvLQ0MBlrn0GT7AhwXLO-1sAYPlx3fHSnIf_TUZDr_gfqI4JCIGP_1LTSgQ37Us8SNTnb_1TdsazoDGpjC1fIRV1_ulVGsNYaNgG9UZb3ehuhmd4eFNJnkoh8gAkKtOTZCFLKA-UjvK0LDTsfeE8rSGQTmmqAu4XzyjrwhpN0MbWlnI4D2vou_9rEs6ZqAezIdOEBkGIC1wX0PFkeYU3_HW\",
+  \"Nonce\": \"636308181781998273.NWJkYTJhZWItYWRmMC00YTUyLTlkZjUtYjQyYWI2ZjA5MjFiM2ZlZjFhMTItYWJmYi00OWNkLWJmMjgtMGI3NWE3Yjg3Njlk\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308181781998273.NWJkYTJhZWItYWRmMC00YTUyLTlkZjUtYjQyYWI2ZjA5MjFiM2ZlZjFhMTItYWJmYi00OWNkLWJmMjgtMGI3NWE3Yjg3Njlk\",
+    \"state\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZTVcoq9bY25rjMNq2bptrnBYNwDBjyHf_iWYhSGWlNo0lHF1M-RbJHbh0TdoE7hAgvLQ0MBlrn0GT7AhwXLO-1sAYPlx3fHSnIf_TUZDr_gfqI4JCIGP_1LTSgQ37Us8SNTnb_1TdsazoDGpjC1fIRV1_ulVGsNYaNgG9UZb3ehuhmd4eFNJnkoh8gAkKtOTZCFLKA-UjvK0LDTsfeE8rSGQTmmqAu4XzyjrwhpN0MbWlnI4D2vou_9rEs6ZqAezIdOEBkGIC1wX0PFkeYU3_HW\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 12:16:18.386 -07:00 [Information] Showing login: User is not authenticated
+2017-05-19 12:16:18.519 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:16:18.520 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:16:32.204 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:16:32.205 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:16:41.419 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:16:41.419 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:23:57.976 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:23:58.020 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:23:58.024 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 12:24:10.327 -07:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-05-19 12:24:10.333 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:24:10.334 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-05-19 12:24:10.337 -07:00 [Debug] Start discovery request
+2017-05-19 12:24:10.529 -07:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-05-19 12:24:10.529 -07:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-05-19 12:24:10.529 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-05-19 12:24:10.532 -07:00 [Debug] Start key discovery request
+2017-05-19 12:24:10.689 -07:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-05-19 12:24:10.689 -07:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-05-19 12:24:10.692 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-05-19 12:24:10.700 -07:00 [Debug] Start authorize request
+2017-05-19 12:24:10.717 -07:00 [Debug] No user present in authorize request
+2017-05-19 12:24:10.721 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:24:10.753 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:24:10.769 -07:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44362/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile\",
+  \"State\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQtVkf9qFOctobucL95Cvx1ZwXkRL-Y8zlGXgY6EzF1I21BPzCr_6BecS91pGUzzPSKqllsmf7SLiwBJHWBwKDDPAn6u9fko695LM4cQ33qt0--ASS9Y_5ndJHy-Jm_8TfLfaHwQ5_5XO3frA4wMa97ERRRXAOqS0wdoBfOlW1aRVuSDQzMhEVoRMyiFmTddwly4ufd6BRWdw3Eydw9I698-rZDVSdAkVgBMBr4JIcxdBmHL5RuMQ14ADymmKpI6C5D1bsw8ZP3CPhN-vvicj3a\",
+  \"Nonce\": \"636308186505720322.ZGJhOGM2MWQtNDRjMS00NTE4LThjZmEtMDdkMTlhM2Y5MWJmOWJmNWE5N2QtY2U4YS00ZTcwLWI0ZTEtM2U2MTM1MTZkNGFl\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308186505720322.ZGJhOGM2MWQtNDRjMS00NTE4LThjZmEtMDdkMTlhM2Y5MWJmOWJmNWE5N2QtY2U4YS00ZTcwLWI0ZTEtM2U2MTM1MTZkNGFl\",
+    \"state\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQtVkf9qFOctobucL95Cvx1ZwXkRL-Y8zlGXgY6EzF1I21BPzCr_6BecS91pGUzzPSKqllsmf7SLiwBJHWBwKDDPAn6u9fko695LM4cQ33qt0--ASS9Y_5ndJHy-Jm_8TfLfaHwQ5_5XO3frA4wMa97ERRRXAOqS0wdoBfOlW1aRVuSDQzMhEVoRMyiFmTddwly4ufd6BRWdw3Eydw9I698-rZDVSdAkVgBMBr4JIcxdBmHL5RuMQ14ADymmKpI6C5D1bsw8ZP3CPhN-vvicj3a\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 12:24:10.774 -07:00 [Information] Showing login: User is not authenticated
+2017-05-19 12:24:10.922 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:24:10.924 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:24:48.136 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:24:48.137 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:24:59.937 -07:00 [Debug] Augmenting SignInContext
+2017-05-19 12:24:59.995 -07:00 [Debug] Request path "/connect/authorize/login" matched to endpoint type Authorize
+2017-05-19 12:24:59.995 -07:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-05-19 12:24:59.995 -07:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/login"
+2017-05-19 12:24:59.999 -07:00 [Debug] Start authorize request (after login)
+2017-05-19 12:25:00.000 -07:00 [Debug] User in authorize request: "88421114"
+2017-05-19 12:25:00.000 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:25:00.000 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:25:00.000 -07:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"https://localhost:44362/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44362/signin-oidc\"
+  ],
+  \"SubjectId\": \"88421114\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile\",
+  \"State\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQtVkf9qFOctobucL95Cvx1ZwXkRL-Y8zlGXgY6EzF1I21BPzCr_6BecS91pGUzzPSKqllsmf7SLiwBJHWBwKDDPAn6u9fko695LM4cQ33qt0--ASS9Y_5ndJHy-Jm_8TfLfaHwQ5_5XO3frA4wMa97ERRRXAOqS0wdoBfOlW1aRVuSDQzMhEVoRMyiFmTddwly4ufd6BRWdw3Eydw9I698-rZDVSdAkVgBMBr4JIcxdBmHL5RuMQ14ADymmKpI6C5D1bsw8ZP3CPhN-vvicj3a\",
+  \"Nonce\": \"636308186505720322.ZGJhOGM2MWQtNDRjMS00NTE4LThjZmEtMDdkMTlhM2Y5MWJmOWJmNWE5N2QtY2U4YS00ZTcwLWI0ZTEtM2U2MTM1MTZkNGFl\",
+  \"SessionId\": \"0896ede734e06209dd41a0c3c1efef7f\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"https://localhost:44362/signin-oidc\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid profile\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636308186505720322.ZGJhOGM2MWQtNDRjMS00NTE4LThjZmEtMDdkMTlhM2Y5MWJmOWJmNWE5N2QtY2U4YS00ZTcwLWI0ZTEtM2U2MTM1MTZkNGFl\",
+    \"state\": \"CfDJ8EUrFS6xwxtDqZ4-EJvcnZQtVkf9qFOctobucL95Cvx1ZwXkRL-Y8zlGXgY6EzF1I21BPzCr_6BecS91pGUzzPSKqllsmf7SLiwBJHWBwKDDPAn6u9fko695LM4cQ33qt0--ASS9Y_5ndJHy-Jm_8TfLfaHwQ5_5XO3frA4wMa97ERRRXAOqS0wdoBfOlW1aRVuSDQzMhEVoRMyiFmTddwly4ufd6BRWdw3Eydw9I698-rZDVSdAkVgBMBr4JIcxdBmHL5RuMQ14ADymmKpI6C5D1bsw8ZP3CPhN-vvicj3a\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.3.0\"
+  }
+}"
+2017-05-19 12:25:00.011 -07:00 [Debug] "user_consent" grant with value: "mvc|88421114" not found in store.
+2017-05-19 12:25:00.011 -07:00 [Information] Showing consent: User has not yet consented
+2017-05-19 12:25:00.043 -07:00 [Debug] Start authorize request protocol validation
+2017-05-19 12:25:00.043 -07:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-05-19 12:25:36.853 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:25:36.896 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:25:36.903 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-05-19 12:26:07.839 -07:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-05-19 12:26:07.886 -07:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-05-19 12:26:07.891 -07:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"

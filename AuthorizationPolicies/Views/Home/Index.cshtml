@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Welcome to Paris Charles de Gualle Airport";
+}
+
+<div class="hero-unit">
+    <h1>Welcome to Paris Charles de Gualle Airport</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4" style="background-color:#003399; color:#fff">
+        <h2><img src="~/images/eu.png" alt="EU" height="29" width="29" /> Customs</h2>
+        <p>Arrivals from the EU</p>
+    </div>
+    <div class="col-md-4" style="background-color:#006400; color:#fff">
+        <h2>🛃 Customs</h2>
+        <p>Nothing to Declare</p>
+    </div>
+    <div class="col-md-4" style="background-color:#f00; color:#fff">
+        <h2>🛃 Customs enquiries</h2>
+        <p>Goods to declare</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">&nbsp;</div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-Controller="Customs" asp-action="EuropeanUnionArrivals" method="get">
+            <button type="submit" class="btn btn-primary">Enter</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <form asp-Controller="Customs" asp-action="NothingToDeclare" method="get">
+            <button type="submit" class="btn btn-success">Enter</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <form asp-Controller="Customs" asp-action="GoodsToDeclare" method="get">
+            <button type="submit" class="btn btn-danger">Enter</button>
+        </form>
+    </div>
+</div>

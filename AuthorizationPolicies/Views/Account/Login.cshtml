@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Passport Control";
+}
+
+<div class="hero-unit">
+    <h1>Welcome to Paris Charles de Gualle Airport</h1>
+    <h2>Passport Control</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <a asp-controller="Account" asp-action="ValidatePassport" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-route-nationality="GBR" >
+            <img src="~/images/United_Kingdom.jpg" alt="UK" title="UK" />
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a asp-controller="Account" asp-action="ValidatePassport" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-route-nationality="USA">
+            <img src="~/images/United_States.jpg" alt="USA" title="USA" />
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a asp-controller="Account" asp-action="ValidatePassport" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-route-nationality="NLD">
+            <img src="~/images/Netherlands.jpg" alt="Netherlands" title="Netherlands" />
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a asp-controller="Account" asp-action="ValidatePassport" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-route-nationality="PRK">
+            <img src="~/images/North_Korea.jpg" alt="North Korea" title="North Korea" />
+        </a>
+    </div>
+</div>
